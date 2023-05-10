@@ -1,1 +1,1 @@
-# Deep Learning Training 2
+# Deep Learning Training
