@@ -2,6 +2,11 @@
 
 ## Contenido
 
+Cada tema incluye una breve descripción de lo que se abordará y las herramientas que se utilizarán en el desarrollo del contenido.
+
+
+### Redes Neuronales
+
 | Tema | Descripción | Herramientas |
 |------|-------------|--------------|
 | 1. Introducción a las Redes Neuronales Artificiales | En este tema se explorarán las redes neuronales artificiales, que son modelos inspirados en el cerebro humano para el procesamiento de información. Aprenderás los conceptos básicos de las redes neuronales, su estructura y funcionamiento, y cómo se utilizan en el campo del aprendizaje profundo. | - |
@@ -20,4 +25,18 @@
 | 14. Backpropagation: Distribución del Error en la Red Neuronal | En esta sección se explicará el algoritmo de backpropagation, que es utilizado para distribuir el error de pérdida en una red neuronal y ajustar los pesos de manera adecuada. Se discutirá cómo se propagan los errores desde la capa de salida hasta las capas ocultas y la capa de entrada, utilizando derivadas parciales y la regla de la cadena. Se mostrará cómo se actualizan los pesos de manera iterativa para minimizar la función de pérdida y mejorar el rendimiento del modelo. | - |
 | 15. Playground de Tensorflow: Explorando Redes Neuronales | En esta sección se utilizará el Playground de Tensorflow, una herramienta interactiva en línea, para explorar y experimentar con redes neuronales. Se presentará la interfaz y se realizarán diferentes configuraciones y ajustes en la red neuronal para observar su impacto en el rendimiento y la precisión del modelo. | Tensorflow, Playground de Tensorflow |
 
-Cada tema incluye una breve descripción de lo que se abordará y las herramientas que se utilizarán en el desarrollo del contenido. El objetivo es proporcionar una introducción clara y concisa al deep learning, utilizando ejemplos prácticos y explicaciones accesibles para el público objetivo.
+
+### Redes Neuronales con Python
+
+Para seguir el contenido, necesitarás tener instaladas las librerías de Python numpy y matplotlib. Estas herramientas te permitirán realizar cálculos numéricos eficientes y visualizar los resultados de manera gráfica.
+
+| Tema | Descripción | Herramientas |
+|---|---|---|
+| 1. Introducción al Aprendizaje Profundo | En este tema te adentrarás en el fascinante mundo del Aprendizaje Profundo. Aprenderás los conceptos fundamentales y cómo se aplican en la resolución de problemas complejos. Descubrirás cómo las redes neuronales pueden imitar el funcionamiento del cerebro y realizar tareas como reconocimiento de imágenes, procesamiento de lenguaje natural y más. | - |
+| 2. Fundamentos de las Redes Neuronales | Aquí exploraremos los componentes esenciales de las redes neuronales. Conocerás los conceptos de neuronas, pesos, funciones de activación y capas. Veremos cómo se realiza la propagación hacia adelante para obtener resultados y cómo los parámetros de la red influyen en su desempeño. | - |
+| 3. Dimensiones y Estructura de los Datos | En este tema entenderemos las dimensiones de los datos en Aprendizaje Profundo. Desde escalares hasta tensores, exploraremos cómo se representan diferentes tipos de datos y cómo influyen en el diseño de modelos. Veremos ejemplos prácticos de matrices y tensores en imágenes y series de tiempo. | Python, numpy |
+| 4. Preparación de los Datos | La calidad de los datos es crucial en el Aprendizaje Profundo. Aprenderás técnicas para limpiar, normalizar y transformar los datos antes de alimentarlos a una red neuronal. Veremos cómo manejar valores faltantes, codificar variables categóricas y dividir conjuntos de datos en entrenamiento y prueba. | Python, numpy |
+| 5. Construyendo una Red Neuronal desde Cero | En este tema te sumergirás en la implementación de una red neuronal utilizando solo numpy y matemáticas. Desde la inicialización de parámetros hasta el entrenamiento y la predicción, conocerás cada paso del proceso. Analizaremos funciones de activación, función de pérdida y descenso del gradiente. | Python, numpy |
+| 6. Entrenamiento y Evaluación del Modelo | Aquí aprenderás a entrenar y evaluar tu modelo de Aprendizaje Profundo. Exploraremos el proceso de propagación hacia adelante, cálculo del error, retropropagación y actualización de los parámetros. Veremos cómo ajustar hiperparámetros como el learning rate y las épocas para obtener mejores resultados. | Python, numpy |
+| 7. Optimización y Regularización | La optimización y regularización son técnicas clave para mejorar el rendimiento de los modelos de Aprendizaje Profundo. Aprenderás sobre optimizadores como el descenso del gradiente estocástico y la regularización L1 y L2. Veremos cómo prevenir el sobreajuste y mejorar la generalización del modelo. | Python, numpy |
+| 8. Aplicaciones del Aprendizaje Profundo | En este tema exploraremos diversas aplicaciones del Aprendizaje Profundo en la vida cotidiana. Desde reconocimiento de voz hasta conducción autónoma, descubrirás cómo esta poderosa tecnología está transformando diferentes industrias. Analizaremos casos de éxito y desafíos futuros en el campo del Aprendizaje Profundo. | - |
