@@ -1,11 +1,6 @@
 # Deep Learning
 
-## Contenido
-
-Cada tema incluye una breve descripción de lo que se abordará y las herramientas que se utilizarán en el desarrollo del contenido.
-
-
-### Redes Neuronales
+## Redes Neuronales
 
 | Tema | Descripción | Herramientas |
 |------|-------------|--------------|
@@ -26,9 +21,7 @@ Cada tema incluye una breve descripción de lo que se abordará y las herramient
 | 15. Playground de Tensorflow: Explorando Redes Neuronales | En esta sección se utilizará el Playground de Tensorflow, una herramienta interactiva en línea, para explorar y experimentar con redes neuronales. Se presentará la interfaz y se realizarán diferentes configuraciones y ajustes en la red neuronal para observar su impacto en el rendimiento y la precisión del modelo. | Tensorflow, Playground de Tensorflow |
 
 
-### Redes Neuronales con Python
-
-Para seguir el contenido, necesitarás tener instaladas las librerías de Python numpy y matplotlib. Estas herramientas te permitirán realizar cálculos numéricos eficientes y visualizar los resultados de manera gráfica.
+## Redes Neuronales con Python
 
 | Tema | Descripción | Herramientas |
 |---|---|---|
