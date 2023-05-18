@@ -39,20 +39,20 @@ Se analizarán las ventajas y desafíos del deep learning en comparación con ot
 ### 3.3. Más Aplicaciones del Deep Learning
 Se explorarán más aplicaciones del deep learning en diferentes áreas, la visión por computadora y el procesamiento del lenguaje natural. Se proporcionarán ejemplos de casos reales en los que el deep learning ha logrado avances significativos y ha impulsado innovaciones en campos como la medicina, la automoción, el comercio electrónico y la seguridad. Se explicará cómo el deep learning ha transformado la forma en que las máquinas pueden comprender y procesar información compleja y se destacará su impacto en la sociedad y la vida cotidiana.
 
-## 4. Comparación entre el Machine Learning Tradicional y el Deep Learning
-En esta capítulo se compararán los enfoques del machine learning tradicional y el deep learning. Se analizará el flujo de trabajo típico en ambos enfoques, desde la ingeniería de características hasta la clasificación de datos, destacando cómo el deep learning integra el aprendizaje de características y la clasificación en una sola etapa.
+## 4. Comparación entre el Machine Learning y el Deep Learning
+En esta capítulo se compararán los enfoques del machine learning y el deep learning. Se analizará el flujo de trabajo típico en ambos enfoques, desde la ingeniería de características hasta la clasificación de datos, destacando cómo el deep learning integra el aprendizaje de características y la clasificación en una sola etapa.
 
-### 4.1. Introducción al Machine Learning Tradicional y el Deep Learning
-Se presentarán los conceptos básicos del machine learning tradicional y el deep learning. Se explicará cómo ambos enfoques buscan desarrollar modelos que puedan aprender y tomar decisiones a partir de los datos, pero con diferencias fundamentales en su estructura y capacidad de representación. Además, se discutirán los beneficios y limitaciones de cada enfoque, así como su aplicabilidad en diferentes problemas.
+### 4.1. Introducción al Machine Learning y el Deep Learning
+Se presentarán los conceptos básicos del machine learning y el deep learning. Se explicará cómo ambos enfoques buscan desarrollar modelos que puedan aprender y tomar decisiones a partir de los datos, pero con diferencias fundamentales en su estructura y capacidad de representación. Además, se discutirán los beneficios y limitaciones de cada enfoque, así como su aplicabilidad en diferentes problemas.
 
-### 4.2. Flujo de trabajo en el Machine Learning Tradicional
-Se describirá el flujo de trabajo típico en el machine learning tradicional. Se abordarán las etapas de recolección y preprocesamiento de datos, selección y extracción de características relevantes, entrenamiento de modelos y evaluación de su rendimiento. Se explicarán los algoritmos comunes utilizados en el machine learning tradicional, como los árboles de decisión, las máquinas de vectores de soporte y los algoritmos de regresión.
+### 4.2. Flujo de trabajo en el Machine Learning
+Se describirá el flujo de trabajo típico en el machine learning. Se abordarán las etapas de recolección y preprocesamiento de datos, selección y extracción de características relevantes, entrenamiento de modelos y evaluación de su rendimiento. Se explicarán los algoritmos comunes utilizados en el machine learning tradicional, como los árboles de decisión, las máquinas de vectores de soporte y los algoritmos de regresión.
 
 ### 4.3. Flujo de trabajo en el Deep Learning
 Se explorará el flujo de trabajo característico en el deep learning. Se analizará cómo el deep learning integra el aprendizaje de características y la clasificación en una sola etapa, a diferencia del enfoque tradicional. Se discutirá la importancia de las redes neuronales profundas y cómo se utilizan para aprender representaciones jerárquicas de los datos. También se presentarán arquitecturas populares en el deep learning, como las redes neuronales convolucionales y las redes neuronales recurrentes.
 
 ### 4.4. Comparación de enfoques y casos de uso
-Se realizará una comparación detallada entre el machine learning tradicional y el deep learning. Se destacarán las diferencias clave en términos de rendimiento, capacidad de representación y escalabilidad. Se presentarán ejemplos de casos de uso en los que uno de los enfoques puede ser más adecuado que el otro, como la clasificación de imágenes, el procesamiento de lenguaje natural y la detección de anomalías. Además, se discutirán las tendencias actuales y futuras en ambos campos y su impacto en diversos sectores.
+Se realizará una comparación detallada entre el machine learning y el deep learning. Se destacarán las diferencias clave en términos de rendimiento, capacidad de representación y escalabilidad. Se presentarán ejemplos de casos de uso en los que uno de los enfoques puede ser más adecuado que el otro, como la clasificación de imágenes, el procesamiento de lenguaje natural y la detección de anomalías. Además, se discutirán las tendencias actuales y futuras en ambos campos y su impacto en diversos sectores.
 
 ## 5. Problemas Comunes en Deep Learning
 En este capítulo se abordarán dos problemas comunes en el deep learning: el overfitting (sobreajuste) y la caja negra. Se explicará qué es el overfitting y cómo evitarlo, así como las limitaciones de interpretación de las redes neuronales como cajas negras.
