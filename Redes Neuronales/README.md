@@ -66,20 +66,20 @@ Exploraremos las limitaciones de interpretación de las redes neuronales, a menu
 ## 6. Construyendo tu Primera Red Neuronal con Keras
 En esta capítulo se guiará al lector a través del proceso de construcción de su primera red neuronal utilizando la biblioteca Keras. Se explicará cómo cargar y preprocesar conjuntos de datos, construir una arquitectura de red neuronal básica, compilar el modelo y ajustar los datos. Se utilizará el ejemplo de reconocimiento de dígitos utilizando el conjunto de datos FASHION_MNIST.
 
-### 6.1. Carga y preprocesamiento de conjuntos de datos
-Aprenderás a cargar y preprocesar conjuntos de datos utilizando la biblioteca Keras. Exploraremos cómo cargar el conjunto de datos FASHION_MNIST, que se utiliza como ejemplo de reconocimiento de dígitos. Veremos cómo dividir los datos en conjuntos de entrenamiento y prueba, y cómo realizar el preprocesamiento necesario para alimentar la red neuronal.
+### 6.1. Carga del conjuntos de datos
+Aprenderás a cargar y preprocesar conjuntos de datos utilizando la biblioteca Keras. Exploraremos cómo cargar el conjunto de datos FASHION_MNIST, que se utiliza como ejemplo de reconocimiento de prendas de vestir. Veremos cómo dividir los datos en conjuntos de entrenamiento y prueba.
 
 ### 6.2. Construcción de una arquitectura de red neuronal básica
-Te guiaremos en la construcción de una arquitectura de red neuronal básica utilizando la biblioteca Keras. Aprenderás a definir las capas y los nodos de la red, así como a establecer la función de activación adecuada. Además, veremos cómo compilar el modelo de la red neuronal.
+Te guiaremos en la construcción de una arquitectura de red neuronal básica utilizando la biblioteca Keras. Aprenderás a definir las capas y los nodos de la red, así como a establecer la función de activación adecuada.
 
-### 6.3. Ajuste de datos y entrenamiento del modelo
-Te mostraremos cómo ajustar los datos de entrada y entrenar el modelo de la red neuronal. Exploraremos cómo normalizar los datos para mejorar el rendimiento del modelo. Aprenderás a entrenar el modelo utilizando los datos de entrenamiento y a ajustar los hiperparámetros para optimizar el proceso de entrenamiento.
+### 6.3. Ajuste de datos
+Te mostraremos cómo ajustar los datos de entrada. Exploraremos cómo normalizar los datos para mejorar el rendimiento del modelo.
 
 ## 7. Entrenando y Evaluando el Modelo de tu Red Neuronal
-En este capítulo se enseñará cómo entrenar y evaluar el modelo de una red neuronal utilizando los datos de entrenamiento y prueba. Se explicará cómo ajustar los datos de entrada, entrenar el modelo con los datos de entrenamiento, y evaluar la precisión del modelo utilizando los datos de prueba.
+En este capítulo se enseñará cómo entrenar y evaluar el modelo de una red neuronal utilizando los datos de entrenamiento y prueba. Se explicará cómo entrenar el modelo con los datos de entrenamiento, y evaluar la precisión del modelo utilizando los datos de prueba.
 
 ### 7.1. Entrenamiento del modelo con los datos de entrenamiento
-Aprenderás a entrenar el modelo de tu red neuronal utilizando los datos de entrenamiento. Exploraremos cómo ajustar los datos de entrada y cómo configurar los hiperparámetros del proceso de entrenamiento. Veremos cómo utilizar la función de pérdida y el optimizador para mejorar el rendimiento del modelo durante el entrenamiento.
+Aprenderás a entrenar el modelo de tu red neuronal utilizando los datos de entrenamiento. Exploraremos cómo configurar los hiperparámetros del proceso de entrenamiento. Veremos cómo utilizar la función de pérdida y el optimizador para mejorar el rendimiento del modelo durante el entrenamiento.
 
 ### 7.2. Evaluación de la precisión del modelo con los datos de prueba
 Te enseñaremos cómo evaluar la precisión del modelo utilizando los datos de prueba. Aprenderás a realizar predicciones con el modelo entrenado y a comparar los resultados con las etiquetas reales. Veremos cómo utilizar métricas de evaluación para medir el rendimiento del modelo y determinar su eficacia en la clasificación de los datos de prueba.
