@@ -63,113 +63,113 @@ Nos adentraremos en el problema del overfitting (sobreajuste) en el deep learnin
 ### 5.2. Redes Neuronales como Cajas Negras
 Exploraremos las limitaciones de interpretación de las redes neuronales, a menudo llamadas "cajas negras". Te explicaremos por qué las redes neuronales pueden ser difíciles de interpretar y cómo esto puede plantear desafíos en la toma de decisiones basada en los resultados del modelo. Además, te presentaremos métodos y enfoques para comprender y visualizar el funcionamiento interno de las redes neuronales, como el análisis de saliencia, la visualización de activaciones y los mapas de calor. Utilizaremos ejemplos prácticos para demostrar la importancia de entender las limitaciones de las redes neuronales como cajas negras en aplicaciones del mundo real.
 
-## 6. Construyendo tu Primera Red Neuronal con Keras
-En esta capítulo se guiará al lector a través del proceso de construcción de su primera red neuronal utilizando la biblioteca Keras. Se explicará cómo cargar y preprocesar conjuntos de datos, construir una arquitectura de red neuronal básica, compilar el modelo y ajustar los datos. Se utilizará el ejemplo de reconocimiento de dígitos utilizando el conjunto de datos FASHION_MNIST.
-
-### 6.1. Carga del conjuntos de datos
-Aprenderás a cargar y preprocesar conjuntos de datos utilizando la biblioteca Keras. Exploraremos cómo cargar el conjunto de datos FASHION_MNIST, que se utiliza como ejemplo de reconocimiento de prendas de vestir. Veremos cómo dividir los datos en conjuntos de entrenamiento y prueba.
-
-### 6.2. Construcción de una arquitectura de red neuronal básica
-Te guiaremos en la construcción de una arquitectura de red neuronal básica utilizando la biblioteca Keras. Aprenderás a definir las capas y los nodos de la red, así como a establecer la función de activación adecuada.
-
-### 6.3. Ajuste de datos
-Te mostraremos cómo ajustar los datos de entrada. Exploraremos cómo normalizar los datos para mejorar el rendimiento del modelo.
-
-## 7. Entrenando y Evaluando el Modelo de tu Red Neuronal
-En este capítulo se enseñará cómo entrenar y evaluar el modelo de una red neuronal utilizando los datos de entrenamiento y prueba. Se explicará cómo entrenar el modelo con los datos de entrenamiento, y evaluar la precisión del modelo utilizando los datos de prueba.
-
-### 7.1. Entrenamiento del modelo con los datos de entrenamiento
-Aprenderás a entrenar el modelo de tu red neuronal utilizando los datos de entrenamiento. Exploraremos cómo configurar los hiperparámetros del proceso de entrenamiento. Veremos cómo utilizar la función de pérdida y el optimizador para mejorar el rendimiento del modelo durante el entrenamiento.
-
-### 7.2. Evaluación de la precisión del modelo con los datos de prueba
-Te enseñaremos cómo evaluar la precisión del modelo utilizando los datos de prueba. Aprenderás a realizar predicciones con el modelo entrenado y a comparar los resultados con las etiquetas reales. Veremos cómo utilizar métricas de evaluación para medir el rendimiento del modelo y determinar su eficacia en la clasificación de los datos de prueba.
-
-## 8. La Neurona: La Unidad Básica de una Red Neuronal
+## 6. La Neurona: La Unidad Básica de una Red Neuronal
 En este capítulo se profundizará en el concepto de la neurona, que es la unidad básica de una red neuronal. Aquí se explorará en detalle la estructura y el funcionamiento de una neurona artificial en una red neuronal. Se abordarán conceptos como las entradas, los pesos, las sumas ponderadas, las funciones de activación y las salidas de una neurona. Se explicará cómo se realiza el cálculo de una neurona y cómo contribuye a la predicción final del modelo.
 
-### 8.1. Estructura y funcionamiento de una neurona artificial
+### 6.1. Estructura y funcionamiento de una neurona artificial
 Nos adentraremos en el concepto fundamental de la neurona, que es la unidad básica de una red neuronal. Exploraremos detalladamente la estructura y el funcionamiento de una neurona artificial, incluyendo conceptos clave como las entradas, los pesos, las sumas ponderadas, las funciones de activación y las salidas de una neurona.
 
-### 8.2. Tipos de funciones de activación
+### 6.2. Tipos de funciones de activación
 Conoceremos los diferentes tipos de funciones de activación utilizadas en las neuronas artificiales. Explicaremos cómo estas funciones determinan el comportamiento de una neurona y cómo afectan la salida de la misma. A través de ejemplos y comparaciones con situaciones cotidianas, te ayudaremos a comprender la importancia y la influencia de las funciones de activación en el rendimiento de una red neuronal.
 
-### 8.3. Entrenamiento y ajuste de pesos en una neurona
+### 6.3. Entrenamiento y ajuste de pesos en una neurona
 Aprenderemos cómo se entrena y se ajustan los pesos de una neurona en una red neuronal. Exploraremos técnicas fundamentales como el aprendizaje supervisado y el descenso del gradiente, que permiten optimizar los pesos de la neurona para lograr una mayor precisión en las predicciones.
 
-## 9. Ejemplo Práctico: Compuertas Lógicas con Perceptrones
+## 7. Ejemplo Práctico: Compuertas Lógicas con Perceptrones
 En este ejemplo práctico se mostrará cómo los perceptrones, una forma básica de redes neuronales, pueden resolver problemas simples de lógica booleana. Se utilizarán las compuertas AND, OR y XOR para ilustrar las capacidades y limitaciones de los perceptrones.
 
-### 9.1. Introducción a los perceptrones
+### 7.1. Introducción a los perceptrones
 Conoceremos los perceptrones, que son una forma básica de redes neuronales utilizadas para resolver problemas de clasificación. Aprenderemos sobre su estructura y funcionamiento, y cómo se pueden entrenar para tomar decisiones basadas en entradas de datos. Además, exploraremos las características y limitaciones de los perceptrones en la resolución de problemas de lógica booleana.
 
-### 9.2. Compuerta AND con perceptrones
+### 7.2. Compuerta AND con perceptrones
 Veremos cómo los perceptrones pueden utilizarse para implementar la compuerta lógica AND. Analizaremos el proceso de entrenamiento de un perceptrón para que pueda reconocer y clasificar correctamente los diferentes valores de entrada de una compuerta AND. A través de ejemplos prácticos, comprenderemos cómo el perceptrón puede resolver problemas de lógica booleana simples.
 
-### 9.3. Compuerta OR con perceptrones
+### 7.3. Compuerta OR con perceptrones
 Exploraremos la implementación de la compuerta lógica OR utilizando perceptrones. Veremos cómo ajustar los pesos y umbrales del perceptrón para lograr un comportamiento adecuado en la clasificación de los diferentes valores de entrada. Mediante ejemplos prácticos, entenderemos cómo el perceptrón puede resolver problemas de lógica booleana más complejos, como la compuerta OR.
 
-### 9.4. Compuerta XOR con perceptrones
+### 7.4. Compuerta XOR con perceptrones
 Abordaremos la compuerta lógica XOR, que es más compleja de implementar utilizando perceptrones debido a su naturaleza no linealmente separable. Exploraremos las limitaciones de los perceptrones en la resolución de la compuerta XOR y cómo surgen los problemas de clasificación cuando se intenta utilizar un solo perceptrón. También presentaremos soluciones alternativas, como la utilización de múltiples perceptrones en capas interconectadas.
 
-## 10. Arquitectura de una Red Neuronal
+## 8. Arquitectura de una Red Neuronal
 En este capítulo se explorará la arquitectura general de una red neuronal. Se discutirán los conceptos de capa de entrada, capas ocultas y capa de salida, así como las características generales y específicas de cada una. Se explicará cómo las redes neuronales están compuestas por matrices y vectores, y cómo se realiza el producto matricial y se aplica el sesgo (bias).
 
-### 10.1. Capa de entrada, capas ocultas y capa de salida
+### 8.1. Capa de entrada, capas ocultas y capa de salida
 Nos adentraremos en la arquitectura general de una red neuronal. Analizaremos los conceptos de la capa de entrada, las capas ocultas y la capa de salida, que son elementos fundamentales en la estructura de una red neuronal. Exploraremos cómo se conectan estas capas y cómo se realiza el procesamiento de la información a medida que los datos fluyen a través de la red.
 
-### 10.2. Matrices y vectores en las redes neuronales
+### 8.2. Matrices y vectores en las redes neuronales
 Entenderemos cómo las redes neuronales están compuestas por matrices y vectores. Exploraremos la importancia de estos elementos en el procesamiento de la información y cómo se utilizan para realizar operaciones como el producto matricial y la aplicación del sesgo (bias). Además, veremos ejemplos concretos para comprender mejor cómo se aplican estas operaciones en el contexto de una red neuronal.
 
-### 10.3. Características generales y específicas de las capas
+### 8.3. Características generales y específicas de las capas
 Profundizaremos en las características generales y específicas de cada capa de una red neuronal. Analizaremos qué tipo de información se procesa en cada una de ellas y cómo contribuyen al resultado final. Exploraremos las diferencias entre la capa de entrada, las capas ocultas y la capa de salida, y cómo cada una de ellas desempeña un papel crucial en el funcionamiento de la red.
 
-## 11. Funciones de Activación en las Redes Neuronales
+## 9. Funciones de Activación en las Redes Neuronales
 Aquí se estudiarán las funciones de activación utilizadas en las redes neuronales. Se presentarán diferentes tipos de funciones, incluyendo las discretas y las continuas, como la función escalón, la función signo, la función sigmoidal, la función tangente hiperbólica, la función lineal rectificada (ReLU) y la función softmax. Se explicará el propósito y la aplicabilidad de cada función en el contexto de una red neuronal.
 
-### 11.1. ¿Qué son las funciones de activación en las redes neuronales?
+### 9.1. ¿Qué son las funciones de activación en las redes neuronales?
 Exploraremos el papel fundamental de las funciones de activación en las redes neuronales. Aprenderás qué son y cómo se utilizan estas funciones para introducir no linealidad en el proceso de cálculo de una red neuronal. Analizaremos diferentes tipos de funciones de activación, incluyendo las discretas y las continuas, como la función escalón, la función signo, la función sigmoidal, la función tangente hiperbólica, la función lineal rectificada (ReLU) y la función softmax. Además, entenderás el propósito y la aplicabilidad de cada función en el contexto de una red neuronal.
 
-### 11.2. Funciones de activación discretas
+### 9.2. Funciones de activación discretas
 Profundizaremos en las funciones de activación discretas utilizadas en las redes neuronales. Exploraremos la función escalón y la función signo, que son funciones simples pero importantes para realizar una clasificación binaria. Aprenderás cómo estas funciones asignan un valor de salida según una condición de umbral y cómo se pueden utilizar en problemas de decisión binarios. Además, analizaremos ejemplos de casos en los que las funciones de activación discretas son útiles en la vida cotidiana.
 
-### 11.3. Funciones de activación continuas
+### 9.3. Funciones de activación continuas
 Nos enfocaremos en las funciones de activación continuas más comúnmente utilizadas en las redes neuronales. Estudiaremos la función sigmoidal, la función tangente hiperbólica y la función lineal rectificada (ReLU). Aprenderás cómo estas funciones introducen no linealidad en el proceso de cálculo de una red neuronal y cómo se aplican en diferentes contextos. Además, exploraremos ejemplos prácticos de casos en los que estas funciones de activación continuas son efectivas en problemas de aprendizaje profundo.
 
-### 11.4. Función de activación softmax
+### 9.4. Función de activación softmax
 Analizaremos en detalle la función de activación softmax. Aprenderás cómo esta función se utiliza en las redes neuronales para asignar probabilidades a un conjunto de clases mutuamente excluyentes. Exploraremos su aplicación en problemas de clasificación con múltiples clases y entenderás cómo se interpreta la salida de la función softmax. Además, veremos ejemplos concretos de casos en los que la función de activación softmax es esencial para el procesamiento de información en redes neuronales.
 
-## 12. Función de Pérdida en el Entrenamiento de Redes Neuronales
+## 10. Función de Pérdida en el Entrenamiento de Redes Neuronales
 En este capítulo se abordará la función de pérdida, que es utilizada en el entrenamiento de redes neuronales para evaluar la discrepancia entre las predicciones del modelo y los valores reales. Se explorarán dos funciones de pérdida comunes: el error cuadrático medio (MSE) y la entropía cruzada (cross-entropy). Se explicará cómo se calculan y su relevancia en diferentes tareas de aprendizaje.
 
-### 12.1. ¿Qué es la función de pérdida en el entrenamiento de redes neuronales?
+### 10.1. ¿Qué es la función de pérdida en el entrenamiento de redes neuronales?
 Entenderemos el concepto de función de pérdida, la cual se utiliza durante el entrenamiento de redes neuronales para evaluar la discrepancia entre las predicciones del modelo y los valores reales. Exploraremos por qué es importante medir esta discrepancia y cómo afecta el aprendizaje de la red neuronal. Además, se introducirán dos funciones de pérdida comunes: el error cuadrático medio (MSE) y la entropía cruzada (cross-entropy), y se explicará su relevancia en diferentes tareas de aprendizaje.
 
-### 12.2. Error cuadrático medio (MSE)
+### 10.2. Error cuadrático medio (MSE)
 Nos enfocaremos en el error cuadrático medio (MSE), una función de pérdida comúnmente utilizada en el entrenamiento de redes neuronales. Aprenderemos cómo se calcula el MSE y por qué es adecuado para ciertos tipos de problemas. También exploraremos ejemplos prácticos para comprender mejor su aplicación y su interpretación en el contexto del aprendizaje profundo.
 
-### 12.3. Entropía cruzada (cross-entropy)
+### 10.3. Entropía cruzada (cross-entropy)
 Nos adentraremos en la entropía cruzada (cross-entropy), otra función de pérdida ampliamente utilizada en el entrenamiento de redes neuronales. Exploraremos cómo se calcula la entropía cruzada y por qué es especialmente adecuada para problemas de clasificación. Mediante ejemplos claros y cotidianos, comprenderemos cómo esta función de pérdida ayuda a mejorar el rendimiento de la red neuronal en tareas de reconocimiento y clasificación.
 
-## 13. Descenso del Gradiente: Optimizando los Pesos de la Red Neuronal
+## 11. Descenso del Gradiente: Optimizando los Pesos de la Red Neuronal
 Aquí se introducirá el concepto de descenso del gradiente, que es un algoritmo utilizado para optimizar los pesos de una red neuronal y encontrar los mínimos de la función de pérdida. Se discutirá la importancia del learning rate y el momentum en el proceso de optimización, y cómo afectan la convergencia y la eficiencia del modelo.
 
-### 13.1. Introducción al descenso del gradiente
+### 11.1. Introducción al descenso del gradiente
 Se presentará el concepto del descenso del gradiente, un algoritmo fundamental para optimizar los pesos de una red neuronal. Se explicará cómo funciona este algoritmo en la búsqueda de los mínimos de la función de pérdida, permitiendo mejorar el rendimiento del modelo. Se discutirán los conceptos básicos del gradiente y la idea de ajustar los pesos en la dirección opuesta al gradiente para minimizar el error.
 
-### 13.2. Learning rate y su impacto en la optimización
+### 11.2. Learning rate y su impacto en la optimización
 Se abordará la importancia del learning rate en el proceso de optimización mediante el descenso del gradiente. Se explicará cómo este hiperparámetro influye en la velocidad de convergencia y la eficiencia del modelo. Se proporcionarán ejemplos prácticos para comprender cómo ajustar el learning rate de manera adecuada y evitar problemas como el sobreajuste o la convergencia lenta.
 
-### 13.3. Momentum: acelerando la optimización
+### 11.3. Momentum: acelerando la optimización
 Se explorará el concepto de momentum en el descenso del gradiente y su impacto en la optimización de los pesos de una red neuronal. Se explicará cómo el momentum permite acelerar el proceso de convergencia y superar obstáculos como los mínimos locales. Se presentarán ejemplos de cómo ajustar el momentum de manera efectiva para mejorar el rendimiento del modelo y evitar problemas de estancamiento en el entrenamiento.
 
-## 14. Backpropagation: Distribución del Error en la Red Neuronal
+## 12. Backpropagation: Distribución del Error en la Red Neuronal
 En este capítulo se explicará el algoritmo de backpropagation, que es utilizado para distribuir el error de pérdida en una red neuronal y ajustar los pesos de manera adecuada. Se discutirá cómo se propagan los errores desde la capa de salida hasta las capas ocultas y la capa de entrada, utilizando derivadas parciales y la regla de la cadena. Se mostrará cómo se actualizan los pesos de manera iterativa para minimizar la función de pérdida y mejorar el rendimiento del modelo.
 
-### 14.1. ¿Qué es el algoritmo de backpropagation?
+### 12.1. ¿Qué es el algoritmo de backpropagation?
 Exploraremos el algoritmo de backpropagation, una técnica fundamental en el aprendizaje profundo. Aprenderás cómo se utiliza este algoritmo para distribuir el error de pérdida en una red neuronal y ajustar los pesos de manera adecuada. Analizaremos cómo se propagan los errores desde la capa de salida hasta las capas ocultas y la capa de entrada utilizando derivadas parciales y la regla de la cadena. Además, veremos ejemplos prácticos para comprender mejor este proceso.
 
-### 14.2. Propagación del error en las capas ocultas y de entrada
+### 12.2. Propagación del error en las capas ocultas y de entrada
 Profundizaremos en la propagación del error en las capas ocultas y de entrada de una red neuronal. Aprenderás cómo se calculan las contribuciones de cada neurona en estas capas para el error de pérdida y cómo se utilizan para actualizar los pesos. Exploraremos cómo se aplican las derivadas parciales y la regla de la cadena en este proceso y cómo influyen en el ajuste de los pesos de la red neuronal.
 
-### 14.3. Actualización de pesos y minimización de la función de pérdida
+### 12.3. Actualización de pesos y minimización de la función de pérdida
 Nos enfocaremos en la actualización de pesos y la minimización de la función de pérdida en el algoritmo de backpropagation. Aprenderás cómo se realizan las actualizaciones iterativas de los pesos utilizando técnicas como el descenso de gradiente. Analizaremos cómo se busca mejorar el rendimiento del modelo reduciendo la función de pérdida y cómo esto se relaciona con la capacidad de la red neuronal para aprender y generalizar a partir de los datos de entrenamiento.
+
+## 13. Construyendo tu Primera Red Neuronal con Keras
+En esta capítulo se guiará al lector a través del proceso de construcción de su primera red neuronal utilizando la biblioteca Keras. Se explicará cómo cargar y preprocesar conjuntos de datos, construir una arquitectura de red neuronal básica, compilar el modelo y ajustar los datos. Se utilizará el ejemplo de reconocimiento de dígitos utilizando el conjunto de datos FASHION_MNIST.
+
+### 13.1. Carga del conjuntos de datos
+Aprenderás a cargar y preprocesar conjuntos de datos utilizando la biblioteca Keras. Exploraremos cómo cargar el conjunto de datos FASHION_MNIST, que se utiliza como ejemplo de reconocimiento de prendas de vestir. Veremos cómo dividir los datos en conjuntos de entrenamiento y prueba.
+
+### 13.2. Construcción de una arquitectura de red neuronal básica
+Te guiaremos en la construcción de una arquitectura de red neuronal básica utilizando la biblioteca Keras. Aprenderás a definir las capas y los nodos de la red, así como a establecer la función de activación adecuada.
+
+### 13.3. Ajuste de datos
+Te mostraremos cómo ajustar los datos de entrada. Exploraremos cómo normalizar los datos para mejorar el rendimiento del modelo.
+
+## 14. Entrenando y Evaluando el Modelo de tu Red Neuronal
+En este capítulo se enseñará cómo entrenar y evaluar el modelo de una red neuronal utilizando los datos de entrenamiento y prueba. Se explicará cómo entrenar el modelo con los datos de entrenamiento, y evaluar la precisión del modelo utilizando los datos de prueba.
+
+### 14.1. Entrenamiento del modelo con los datos de entrenamiento
+Aprenderás a entrenar el modelo de tu red neuronal utilizando los datos de entrenamiento. Exploraremos cómo configurar los hiperparámetros del proceso de entrenamiento. Veremos cómo utilizar la función de pérdida y el optimizador para mejorar el rendimiento del modelo durante el entrenamiento.
+
+### 14s.2. Evaluación de la precisión del modelo con los datos de prueba
+Te enseñaremos cómo evaluar la precisión del modelo utilizando los datos de prueba. Aprenderás a realizar predicciones con el modelo entrenado y a comparar los resultados con las etiquetas reales. Veremos cómo utilizar métricas de evaluación para medir el rendimiento del modelo y determinar su eficacia en la clasificación de los datos de prueba.
