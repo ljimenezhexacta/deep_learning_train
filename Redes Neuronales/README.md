@@ -88,13 +88,13 @@ Te enseñaremos cómo evaluar la precisión del modelo utilizando los datos de p
 En este capítulo se profundizará en el concepto de la neurona, que es la unidad básica de una red neuronal. Aquí se explorará en detalle la estructura y el funcionamiento de una neurona artificial en una red neuronal. Se abordarán conceptos como las entradas, los pesos, las sumas ponderadas, las funciones de activación y las salidas de una neurona. Se explicará cómo se realiza el cálculo de una neurona y cómo contribuye a la predicción final del modelo.
 
 ### 8.1. Estructura y funcionamiento de una neurona artificial
-Nos adentraremos en el concepto fundamental de la neurona, que es la unidad básica de una red neuronal. Exploraremos detalladamente la estructura y el funcionamiento de una neurona artificial, incluyendo conceptos clave como las entradas, los pesos, las sumas ponderadas, las funciones de activación y las salidas de una neurona. A través de ejemplos y analogías, te guiaremos paso a paso en el proceso de cálculo de una neurona y cómo esta contribuye a la predicción final del modelo.
+Nos adentraremos en el concepto fundamental de la neurona, que es la unidad básica de una red neuronal. Exploraremos detalladamente la estructura y el funcionamiento de una neurona artificial, incluyendo conceptos clave como las entradas, los pesos, las sumas ponderadas, las funciones de activación y las salidas de una neurona.
 
 ### 8.2. Tipos de funciones de activación
 Conoceremos los diferentes tipos de funciones de activación utilizadas en las neuronas artificiales. Explicaremos cómo estas funciones determinan el comportamiento de una neurona y cómo afectan la salida de la misma. A través de ejemplos y comparaciones con situaciones cotidianas, te ayudaremos a comprender la importancia y la influencia de las funciones de activación en el rendimiento de una red neuronal.
 
 ### 8.3. Entrenamiento y ajuste de pesos en una neurona
-Aprenderemos cómo se entrena y se ajustan los pesos de una neurona en una red neuronal. Exploraremos técnicas fundamentales como el aprendizaje supervisado y el descenso del gradiente, que permiten optimizar los pesos de la neurona para lograr una mayor precisión en las predicciones. A través de ejemplos prácticos y una explicación paso a paso, te guiaremos en el proceso de entrenamiento de una neurona y cómo influye en el rendimiento general de la red neuronal.
+Aprenderemos cómo se entrena y se ajustan los pesos de una neurona en una red neuronal. Exploraremos técnicas fundamentales como el aprendizaje supervisado y el descenso del gradiente, que permiten optimizar los pesos de la neurona para lograr una mayor precisión en las predicciones.
 
 ## 9. Ejemplo Práctico: Compuertas Lógicas con Perceptrones
 En este ejemplo práctico se mostrará cómo los perceptrones, una forma básica de redes neuronales, pueden resolver problemas simples de lógica booleana. Se utilizarán las compuertas AND, OR y XOR para ilustrar las capacidades y limitaciones de los perceptrones.
