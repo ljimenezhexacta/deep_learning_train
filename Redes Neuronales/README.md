@@ -82,12 +82,9 @@ En este capítulo se explorará la arquitectura general de una red neuronal. Se 
 Nos adentraremos en la arquitectura general de una red neuronal. Analizaremos los conceptos de la capa de entrada, las capas ocultas y la capa de salida, que son elementos fundamentales en la estructura de una red neuronal. Exploraremos cómo se conectan estas capas y cómo se realiza el procesamiento de la información a medida que los datos fluyen a través de la red.
 
 ### 7.2. Matrices y vectores en las redes neuronales
-Entenderemos cómo las redes neuronales están compuestas por matrices y vectores. Exploraremos la importancia de estos elementos en el procesamiento de la información y cómo se utilizan para realizar operaciones como el producto matricial y la aplicación del sesgo (bias). Además, veremos ejemplos concretos para comprender mejor cómo se aplican estas operaciones en el contexto de una red neuronal.
+Entenderemos cómo las redes neuronales están compuestas por matrices y vectores. Exploraremos la importancia de estos elementos en el procesamiento de la información y cómo se utilizan para realizar operaciones como el producto matricial y la aplicación del sesgo (bias). Además, veremos cómo se aplican estas operaciones en el contexto de una red neuronal.
 
-### 7.3. Características generales y específicas de las capas
-Profundizaremos en las características generales y específicas de cada capa de una red neuronal. Analizaremos qué tipo de información se procesa en cada una de ellas y cómo contribuyen al resultado final. Exploraremos las diferencias entre la capa de entrada, las capas ocultas y la capa de salida, y cómo cada una de ellas desempeña un papel crucial en el funcionamiento de la red.
-
-## 9. Funciones de Activación en las Redes Neuronales
+## 8. Funciones de Activación en las Redes Neuronales
 Aquí se estudiarán las funciones de activación utilizadas en las redes neuronales. Se presentarán diferentes tipos de funciones, incluyendo las discretas y las continuas, como la función escalón, la función signo, la función sigmoidal, la función tangente hiperbólica, la función lineal rectificada (ReLU) y la función softmax. Se explicará el propósito y la aplicabilidad de cada función en el contexto de una red neuronal.
 
 ### 8.1. ¿Qué son las funciones de activación en las redes neuronales?
