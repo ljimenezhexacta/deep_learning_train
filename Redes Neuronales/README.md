@@ -106,7 +106,7 @@ En este capítulo se abordará la función de pérdida, que es utilizada en el e
 Entenderemos el concepto de función de pérdida, la cual se utiliza durante el entrenamiento de redes neuronales para evaluar la discrepancia entre las predicciones del modelo y los valores reales. Exploraremos por qué es importante medir esta discrepancia y cómo afecta el aprendizaje de la red neuronal. Además, se introducirán dos funciones de pérdida comunes: el error cuadrático medio (MSE) y la entropía cruzada (cross-entropy), y se explicará su relevancia en diferentes tareas de aprendizaje.
 
 ### 9.2. Error cuadrático medio (MSE)
-Nos enfocaremos en el error cuadrático medio (MSE), una función de pérdida comúnmente utilizada en el entrenamiento de redes neuronales. Aprenderemos cómo se calcula el MSE y por qué es adecuado para ciertos tipos de problemas. También exploraremos ejemplos prácticos para comprender mejor su aplicación y su interpretación en el contexto del aprendizaje profundo.
+Nos enfocaremos en el error cuadrático medio (MSE), una función de pérdida comúnmente utilizada en el entrenamiento de redes neuronales. Aprenderemos cómo se calcula el MSE y por qué es adecuado para ciertos tipos de problemas.
 
 ### 9.3. Entropía cruzada (cross-entropy)
 Nos adentraremos en la entropía cruzada (cross-entropy), otra función de pérdida ampliamente utilizada en el entrenamiento de redes neuronales. Exploraremos cómo se calcula la entropía cruzada y por qué es especialmente adecuada para problemas de clasificación. Mediante ejemplos claros y cotidianos, comprenderemos cómo esta función de pérdida ayuda a mejorar el rendimiento de la red neuronal en tareas de reconocimiento y clasificación.
