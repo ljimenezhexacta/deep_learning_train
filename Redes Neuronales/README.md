@@ -4,7 +4,7 @@
 En este capítulo se explorarán las redes neuronales artificiales, que son modelos inspirados en el cerebro humano para el procesamiento de información. Aprenderás los conceptos básicos de las redes neuronales, su estructura y funcionamiento, y cómo se utilizan en el campo del aprendizaje profundo.
 
 ### 1.1. ¿Qué son las redes neuronales artificiales?
-Introduciremos el concepto de redes neuronales artificiales, que son modelos inspirados en el cerebro humano para procesar información. Exploraremos cómo estas redes imitan el funcionamiento de las neuronas y cómo se utilizan en el aprendizaje profundo. Además, veremos ejemplos prácticos de cómo las redes neuronales artificiales se aplican en la vida cotidiana.
+Introduciremos el concepto de redes neuronales artificiales, que son modelos inspirados en el cerebro humano para procesar información. Exploraremos cómo estas redes imitan el funcionamiento de las neuronas y cómo se utilizan en el aprendizaje profundo.
 
 ### 1.2. Estructura y funcionamiento de las redes neuronales
 Aprenderemos sobre la estructura y el funcionamiento básico de las redes neuronales. Analizaremos los componentes esenciales de una red neuronal, como las capas, los nodos y los pesos. También exploraremos cómo se realiza la propagación hacia adelante y hacia atrás en una red neuronal, así como la función de activación y el cálculo del error.
